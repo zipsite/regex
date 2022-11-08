@@ -1,2 +1,2 @@
-let str = 'sss site.ru zzz site.com kkk';
-console.log(str.replace(/(\w+)\.(\w+)/g, '<a href="http://$&">$&</a>'));
+let str = 'aaa bbb ccc xyz';
+console.log(str.match(/(\w)\1{2}/g));
